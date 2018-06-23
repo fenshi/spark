@@ -31,7 +31,7 @@ trait ProfanityFilter extends Writer
     abstract override def write(msg: String) = {
       
         //next one in chain
-        super.write(msg.replace("stupid", "s****"));
+        super.write(msg.replace("stupiddddddddddddd", "s****"));
     }
 }
 
